@@ -1,6 +1,9 @@
 {
   "name": "proj",
   "version": "0.1.0",
+  "engines": {
+    "node": "10.15.1"
+  },
   "private": true,
   "dependencies": {
     "dotenv": "^7.0.0",
