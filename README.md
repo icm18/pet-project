@@ -1,3 +1,8 @@
+PET FINDER
+
+In this app you can report a lost pet and share the exactly place it was found through google maps,
+that way if the owner of the animal it's looking for it, it will allow to find and get it back home safe.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
