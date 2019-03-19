@@ -32,7 +32,7 @@ class Signup extends Component {
       email: email,
       password: email
     }
-
+     console.log(user)
     // Communicate with the server so that the server can store this information in our database. 
     fetch('/signup', {
       method: "POST",
@@ -51,7 +51,7 @@ class Signup extends Component {
         <input type="email" name="email" placeholder="Type your email..." onChange={this.recordChange} />
         <input type="text" name="name" placeholder="Full name" onChange={this.recordChange}/>
         <input type="password" name="password" placeholder="Password..." onChange={this.recordChange}/> 
-        <button type="submit"> Signup </button>  
+        <button class="btn btn-primary" onClick={this.signupUser}> Signup </button>  
       </form>
 
     )

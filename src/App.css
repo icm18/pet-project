@@ -1,7 +1,11 @@
 .App {
   text-align: center;
-}
+  width: 90%;
 
+}
+#petform{
+  margin-top:100px;
+}
 .App-logo {
   animation: App-logo-spin infinite 20s linear;
   height: 40vmin;
@@ -30,4 +34,14 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+#dogImage {
+  position: absolute;
+  bottom: -20;
+  right: 10%;
+  width: 600px;
+  height: 400px;
+  background-color: rgba(255, 255, 255, 0);
+
 }
